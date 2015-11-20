@@ -26,9 +26,9 @@ int main()
 
     while (inf >> word)
 	// I was surprised to find that += works even if there
-    // is no previous key entry.  It creates the entry and 
+        // is no previous key entry.  It creates the entry and 
 	// sets its value to one.
-	// If the key(word) already exists, it increments its value
+	// If the key(word) already exists, increment its value
         wordRec[word] += 1;
     
 	// standard template iterators to print sorted list.
