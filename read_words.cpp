@@ -18,7 +18,7 @@ int main()
 {
 	// Map is just an associative array.
 	// The word is the key, the count is the value.
-	// The keys are stored in descending alphanumeric
+	// The keys are stored in ascending order based on ASCII values
 	// order.
     map<string, int> wordRec;
     string word; 
